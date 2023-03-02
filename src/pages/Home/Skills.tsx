@@ -43,29 +43,29 @@ export default function Skills() {
 
 	return (
 		<div className='bg-[#2B3467] px-[11%]'>
-			<div className='flex flex-col justify-center'>
-				<div className=''>
-					<div className='flex justify-center'>
-						<h1 className='text-3xl pb-5 font-semibold text-[#FCFFE7] pt-5'>
-							Skills
-						</h1>
-					</div>
-					{props.card.map((card, index) => (
-						<div className='grid grid-cols-4 gap-x-10'>
-							<div
-								key={card.id}
-								className='w-full max-w-sm p-4 bg-white border-2 border-[#EB455F] rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700'
-							>
-								<SingleSkills
-									title={card.title}
-									skills={card.skills}
-								/>
-							</div>
-						</div>
-					))}
+			{/* <div className='flex flex-col justify-center'> */}
+			{/* <div className='flex flex-row'> */}
+			{/* <div className='flex justify-center'>
+					<h1 className='text-3xl pb-5 font-semibold text-[#FCFFE7] pt-5'>
+						Skills
+					</h1>
 				</div>
-			</div>
-			{/* <div className='flex flex-col justify-center'>
+				{props.card.map((card, index) => (
+					<div className='grid grid-cols-4 gap-x-10'>
+						<div
+							key={card.id}
+							className='w-full max-w-sm p-4 bg-white border-2 border-[#EB455F] rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700'
+						>
+							<SingleSkills
+								title={card.title}
+								skills={card.skills}
+							/>
+						</div>
+					</div>
+				))}
+			</div> */}
+			{/* </div> */}
+			<div className='flex flex-col justify-center'>
 				<div className=''>
 					<div className='flex justify-center'>
 						<h1 className='text-3xl pb-5 font-semibold text-[#FCFFE7] pt-5'>
@@ -495,7 +495,7 @@ export default function Skills() {
 						</div>
 					</div>
 				</div>
-			</div> */}
+			</div>
 		</div>
 	);
 }

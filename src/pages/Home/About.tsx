@@ -4,7 +4,7 @@ import collage from '../../img/collage.png';
 
 export default function About() {
 	return (
-		<div className='bg-[#fffff9] pt-5 flex flex-col px-[11%]'>
+		<div className='bg-[#fffff9] pt-28 flex flex-col px-[11%]'>
 			<div className='grid grid-cols-2'>
 				<div>
 					<h1 className='text-3xl font-semibold text-[#2B3467] text-start'>
