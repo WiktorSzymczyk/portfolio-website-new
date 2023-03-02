@@ -8,7 +8,10 @@ export default function Home() {
 			<div className='container'>
 				<div className='box'>
 					<div className='imgBx'>
-						<img src='https://content.altexsoft.com/media/2020/01/Front_end_featured.jpg' />
+						<img
+							src='https://content.altexsoft.com/media/2020/01/Front_end_featured.jpg'
+							alt=''
+						/>
 					</div>
 					<div className='content'>
 						<div>
@@ -26,7 +29,10 @@ export default function Home() {
 				</div>
 				<div className='box'>
 					<div className='imgBx'>
-						<img src='https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2VuZHxlbnwwfHwwfHw%3D&w=1000&q=80' />
+						<img
+							src='https://images.unsplash.com/photo-1627398242454-45a1465c2479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2VuZHxlbnwwfHwwfHw%3D&w=1000&q=80'
+							alt=''
+						/>
 					</div>
 					<div className='content'>
 						<div>
@@ -44,7 +50,10 @@ export default function Home() {
 				</div>
 				<div className='box'>
 					<div className='imgBx'>
-						<img src='https://www.aib.world/wp-content/uploads/2020/11/research-methods-covid-webinar-header.jpg' />
+						<img
+							src='https://www.aib.world/wp-content/uploads/2020/11/research-methods-covid-webinar-header.jpg'
+							alt=''
+						/>
 					</div>
 					<div className='content'>
 						<div>
@@ -62,7 +71,10 @@ export default function Home() {
 				</div>
 				<div className='box'>
 					<div className='imgBx'>
-						<img src='https://wallpaperaccess.com/full/3569655.jpg' />
+						<img
+							src='https://wallpaperaccess.com/full/3569655.jpg'
+							alt=''
+						/>
 					</div>
 					<div className='content'>
 						<div>

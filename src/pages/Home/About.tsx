@@ -1,5 +1,4 @@
 import React from 'react';
-import skills from '../../img/layers.png';
 import collage from '../../img/collage.png';
 
 export default function About() {

@@ -4,9 +4,9 @@ import linkedin from '../../img/icons8-linkedin-480.png';
 import mail from '../../img/icons8-mail-480.png';
 import github from '../../img/icons8-github-480.png';
 
-interface Location {
-	assign(url: string | URL): void;
-}
+// interface Location {
+// 	assign(url: string | URL): void;
+// }
 
 export default function Hero() {
 	return (
