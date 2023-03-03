@@ -20,7 +20,12 @@ export default function Hero() {
 			</div>
 			<div>
 				<h1 className='w-[70%] text-start text-5xl text-[#FCFFE7] font-semibold pb-48 mt-20'>
-					Hi! I'm <strong>Wiktor Szymczyk</strong> and this is my portfolio.
+					Hi! I'm{' '}
+					<strong>
+						<span className='text-[#ef6a7e]'>Wiktor</span>{' '}
+						<span className='text-[#7f85a3]'>Szymczyk</span>
+					</strong>{' '}
+					and this is my portfolio.
 					<p className='opacity-30 pt-1'>FULL-STACK WEB DEVELOPER</p>
 					<hr className='w-full mt-5 border-2 border-[#EB455F]'></hr>
 					<div className='flex flex-row h-[10%] w-[10%] pt-3'>

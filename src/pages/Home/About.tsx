@@ -27,7 +27,7 @@ export default function About() {
 				<img
 					src={collage}
 					alt=''
-					className='object-contain w-auto h-[80%] pl-5 scale-1.2 hover:scale-[1.4] hover:translate-x-10 transition ease-in-out duration-350'
+					className='object-contain w-auto h-[80%] pl-5 scale-1.2 hover:scale-[1.4] hover:translate-x-10 transition ease-in-out duration-500'
 				/>
 			</div>
 		</div>

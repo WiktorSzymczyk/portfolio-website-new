@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import Hero from './pages/Home/Hero';
 import About from './pages/Home/About';
-import Skills from './pages/Home/Skills';
+// import Skills from './pages/Home/Skills';
 import Home from './pages/Home/Home';
 import Navbar from './pages/Home/Navbar';
-import Portfolio from './pages/Home/Portfolio';
+// import Portfolio from './pages/Home/Portfolio';
 
 function App() {
 	return (
